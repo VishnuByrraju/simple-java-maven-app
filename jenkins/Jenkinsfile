@@ -32,5 +32,10 @@ pipeline {
                 echo "Job Completed Jenkins From Git"
             }
         }
+        stage('Final') { 
+            steps {
+                echo "Job Final Output"
+            }
+        }
     }
 }
